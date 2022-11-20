@@ -8,8 +8,25 @@ body {
 .text-center {
   text-align: center; }
 
+input {
+  border: 1px solid #ccc;
+  padding: 10px; }
+
+button {
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #000; }
+
 .div-c-m {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%; }
+  .div-c-m.todo-list-container {
+    align-items: start;
+    height: auto; }
+    .div-c-m.todo-list-container.list-view div {
+      width: calc(50% - 30px);
+      margin: 15px;
+      border: 1px solid #ccc; }
