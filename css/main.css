@@ -30,3 +30,22 @@ button {
       width: calc(50% - 30px);
       margin: 15px;
       border: 1px solid #ccc; }
+
+.todo-added-list ul {
+  margin: 0px;
+  padding: 0px; }
+  .todo-added-list ul li {
+    list-style-type: none;
+    border-top: 1px solid #ccc;
+    padding: 5px 0; }
+    .todo-added-list ul li .add-list {
+      width: calc(100% - 180px);
+      display: inline-block; }
+    .todo-added-list ul li button {
+      padding: 5px 10px;
+      margin: 0 5px;
+      cursor: pointer; }
+    .todo-added-list ul li .disable {
+      pointer-events: none;
+      cursor: default;
+      border: 1px solid transparent; }
