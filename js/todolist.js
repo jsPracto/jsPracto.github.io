@@ -11,8 +11,8 @@ function createList (list){
 
     // Object for creating element
     let listCon={
-        createLI : document.createElement('li'),
-        checkbox : document.createElement('input'),
+        createLI : document.createElement('li'),                       
+        checkbox : document.createElement('input'), 
         textInput : document.createElement('input'),
         deleteBtn : document.createElement('button'),
         editBtn : document.createElement('button')
